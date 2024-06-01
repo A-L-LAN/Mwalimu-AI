@@ -1,5 +1,6 @@
 body {
     margin: 0;
+    padding: 0;
     font-family: Arial, sans-serif;
 }
 
@@ -8,130 +9,147 @@ body {
     width: 1280px;
     height: 4886px;
     background-color: #FFFFFF;
-    overflow: auto;
+    overflow-y: scroll;
+}
+
+.shadow-box {
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 2px rgba(0, 0, 0, 0.24);
 }
 
 .rectangle-8 {
     position: absolute;
     width: 1280px;
     height: 102px;
-    border-radius: 10px;
+    top: 0;
+    left: 0;
     background-color: #FFFFFF;
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
 }
 
-.rectangle-8 .logo {
+.logo {
     position: absolute;
-    top: 23px;
-    left: 83px;
     width: 56px;
     height: 74px;
+    left: 83px;
+    top: 23px;
 }
 
-.rectangle-8 .product,
-.rectangle-8 .tools,
-.rectangle-8 .pricing,
-.rectangle-8 .contact-sales {
+.nav-link {
     position: absolute;
-    top: 51px;
-    font-size: 20px;
     font-weight: normal;
+    font-size: 20px;
+    line-height: auto;
     text-decoration: none;
+    color: inherit;
 }
 
-.rectangle-8 .product {
+.product {
     left: 325px;
+    top: 51px;
     color: #1E1E1E;
 }
 
-.rectangle-8 .tools {
+.tools {
     left: 435px;
+    top: 51px;
     color: #1E1E1E;
 }
 
-.rectangle-8 .pricing {
+.pricing {
     left: 522px;
+    top: 51px;
     color: #1E1E1E;
 }
 
-.rectangle-8 .contact-sales {
+.contact-sales {
     left: 943px;
+    top: 51px;
     color: #040C1E;
 }
 
-.rectangle-8 .register-button {
+.button {
     position: absolute;
-    top: 33px;/* Adjusting position to align with text */
-    left: 1084px;
     width: 108px;
     height: 36px;
-    border-radius: 10px;
     background-color: #FBDC18;
-    border: none;
-    cursor: pointer;
-    font-size: 16px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #21252B;
+    font-size: 20px;
+    font-weight: normal;
+}
+
+.register {
+    left: 1084px;
+    top: 42px;
 }
 
 .group-13 {
     position: absolute;
-    top: 123px;
     left: 605px;
+    top: 123px;
     width: 648px;
     height: 611px;
+    overflow: hidden;
 }
 
 .group-13 img {
     width: 100%;
     height: 100%;
+    object-fit: cover;
 }
 
-.additional-elements .ellipse-4 {
+.child-3 {
+    position: relative;
+}
+
+.ellipse-4 {
     position: absolute;
-    top: 155px;
-    left: 73px;
     width: 20px;
     height: 20px;
+    left: 73px;
+    top: 155px;
     background-color: #FBDC18;
     border-radius: 50%;
 }
 
-.additional-elements .line-3 {
+.line-3 {
     position: absolute;
+    left: 13px;
     top: 335.03px;
-    left: 83px;
     width: 139.06px;
-    height: 0;
-    border-left: 2px solid #143D4C;
+    height: 0px;
+    border: 1px solid #143D4C;
     transform: rotate(90deg);
 }
 
-.additional-elements .ai-assisted-learning {
+.ai-assisted-learning {
     position: absolute;
-    top: 329px;
     left: 119px;
-    width: 459px;
+    top: 329px;
     font-size: 15px;
-    font-weight: normal;
     color: #686868;
 }
 
-.additional-elements .learn-master-succeed {
+.main-title {
     position: absolute;
-    top: 329px;
     left: 119px;
+    top: 366px;
     font-size: 45px;
     font-weight: bold;
     color: #143D4C;
 }
 
-.additional-elements .learn-master-succeed .master {
+.main-title .master {
     color: #E1C619;
 }
 
-.additional-elements .description {
+.description {
     position: absolute;
-    top: 402px;
     left: 119px;
+    top: 422px;
     width: 434px;
     height: 150px;
     font-size: 20px;
@@ -139,48 +157,46 @@ body {
     color: #686868;
 }
 
-.additional-elements .join-institution-button {
+.join-institution {
     position: absolute;
-    top: 623px;
     left: 108px;
+    top: 623px;
     width: 201px;
     height: 49px;
-    border-radius: 25px;
     background-color: #FBDC18;
-    border: none;
-    cursor: pointer;
-    font-size: 20px;
+    border-radius: 25px;
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    padding: 0 20px;
-    color: black;
+    justify-content: center;
+    color: #143D4C;
+    font-size: 20px;
+    font-weight: normal;
 }
 
-.additional-elements .join-institution-button img {
-    width: 24px;
-    height: 24px;
+.join-institution img {
+    margin-left: 10px;
 }
 
-.additional-elements .watch-demo-button {
+.watch-demo {
     position: absolute;
-    top: 621px;
     left: 343px;
+    top: 623px;
     width: 209px;
     height: 49px;
-    border-radius: 25px;
     background-color: #D9D9D9;
-    border: none;
-    cursor: pointer;
-    font-size: 20px;
+    border-radius: 25px;
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    padding: 0 20px;
-    color: black;
+    justify-content: center;
 }
 
-.additional-elements .watch-demo-button img {
-    width: 24px;
-    height: 24px;
+.watch-demo span {
+    color: #143D4C;
+    font-size: 20px;
+    font-weight: normal;
+    margin-right: 10px;
+}
+
+.watch-demo img {
+    margin-left: 10px;
 }
