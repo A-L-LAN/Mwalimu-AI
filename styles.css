@@ -137,7 +137,7 @@ body {
     position: absolute;
     left: 119px;
     top: 366px;
-    font-size: 45px;
+    font-size: 40px;
     font-weight: bold;
     color: #143D4C;
 }
@@ -149,10 +149,10 @@ body {
 .description {
     position: absolute;
     left: 119px;
-    top: 422px;
+    top: 435px;
     width: 434px;
     height: 150px;
-    font-size: 20px;
+    font-size: 16px;
     line-height: 30px;
     color: #686868;
 }
