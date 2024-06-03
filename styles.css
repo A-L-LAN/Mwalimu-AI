@@ -6,10 +6,12 @@ body {
 
 .background {
     position: relative;
-    width: 1280px;
+    width: 1250px;
     height: 4886px;
     background-color: #FFFFFF;
-    overflow-y: scroll;
+    padding-right: 0%;
+    padding-left: 5%;
+    /* overflow-y: scroll; */
 }
 
 .shadow-box {
@@ -88,7 +90,7 @@ body {
 
 .group-13 {
     position: absolute;
-    left: 605px;
+    left: 630px;
     top: 123px;
     width: 648px;
     height: 611px;
@@ -96,8 +98,8 @@ body {
 }
 
 .group-13 img {
-    width: 100%;
-    height: 100%;
+    width: 70%;
+    height: 70%;
     object-fit: cover;
 }
 
@@ -128,16 +130,16 @@ body {
 .ai-assisted-learning {
     position: absolute;
     left: 119px;
-    top: 329px;
-    font-size: 15px;
+    top: 230px;
+    font-size: 10px;
     color: #686868;
 }
 
 .main-title {
     position: absolute;
     left: 119px;
-    top: 366px;
-    font-size: 40px;
+    top: 240px;
+    font-size: 35px;
     font-weight: bold;
     color: #143D4C;
 }
@@ -148,41 +150,41 @@ body {
 
 .description {
     position: absolute;
-    left: 119px;
-    top: 435px;
+    left: 120px;
+    top: 315px;
     width: 434px;
     height: 150px;
-    font-size: 16px;
-    line-height: 30px;
+    font-size: 12px;
+    line-height: 25px;
     color: #686868;
 }
 
 .join-institution {
     position: absolute;
     left: 108px;
-    top: 623px;
-    width: 201px;
-    height: 49px;
+    top: 450px;
+    width: 180px;
+    height: 40px;
     background-color: #FBDC18;
     border-radius: 25px;
     display: flex;
     align-items: center;
     justify-content: center;
     color: #143D4C;
-    font-size: 20px;
+    font-size: 16px;
     font-weight: normal;
 }
 
 .join-institution img {
-    margin-left: 10px;
+    margin-left: 8px;
 }
 
 .watch-demo {
     position: absolute;
     left: 343px;
-    top: 623px;
-    width: 209px;
-    height: 49px;
+    top: 450px;
+    width: 180px;
+    height: 40px;
     background-color: #D9D9D9;
     border-radius: 25px;
     display: flex;
@@ -192,7 +194,7 @@ body {
 
 .watch-demo span {
     color: #143D4C;
-    font-size: 20px;
+    font-size: 16px;
     font-weight: normal;
     margin-right: 10px;
 }
@@ -205,8 +207,8 @@ body {
     position: absolute;
     width: 24px;
     height: 24px;
-    left: 1229px;
-    top: 609px;
+    left: 1050px;
+    top: 570px;
     background-color: #FFFFFF;
     border-radius: 0;
 }
@@ -215,8 +217,8 @@ body {
     position: absolute;
     width: 24px;
     height: 24px;
-    left: 1231px;
-    top: 650px;
+    left: 1050px;
+    top: 510px;
     background-color: #FFFFFF;
     border-radius: 0;
     padding: 4px 2px;
@@ -226,8 +228,8 @@ body {
     position: absolute;
     width: 171px;
     height: 0;
-    left: 1150px;
-    top: 450px;
+    left: 970px;
+    top: 400px;
     border: 1px solid #FBDC18;
     transform: rotate(90deg);
 }
