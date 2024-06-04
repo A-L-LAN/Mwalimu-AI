@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&family=Sulphur+Point:wght@300;400;700&display=swap');
+
+
+
 body {
     margin: 0;
     padding: 0;
-    font-family: Arial, sans-serif;
 }
 
 .background {
@@ -43,6 +46,7 @@ body {
     line-height: auto;
     text-decoration: none;
     color: inherit;
+    font-family: 'League Spartan', sans-serif;
 }
 
 .product {
@@ -81,6 +85,7 @@ body {
     color: #21252B;
     font-size: 20px;
     font-weight: normal;
+    font-family: 'League Spartan', sans-serif;
 }
 
 .register {
@@ -133,6 +138,7 @@ body {
     top: 230px;
     font-size: 10px;
     color: #686868;
+    font-family: 'Sulphur Point', sans-serif;
 }
 
 .main-title {
@@ -142,6 +148,7 @@ body {
     font-size: 35px;
     font-weight: bold;
     color: #143D4C;
+    font-family: 'League Spartan', sans-serif;
 }
 
 .main-title .master {
@@ -157,6 +164,7 @@ body {
     font-size: 12px;
     line-height: 25px;
     color: #686868;
+    font-family: 'League Spartan', sans-serif;
 }
 
 .join-institution {
@@ -173,6 +181,7 @@ body {
     color: #143D4C;
     font-size: 16px;
     font-weight: normal;
+    font-family: 'League Spartan', sans-serif;
 }
 
 .join-institution img {
@@ -197,6 +206,7 @@ body {
     font-size: 16px;
     font-weight: normal;
     margin-right: 10px;
+    font-family: 'League Spartan', sans-serif;
 }
 
 .watch-demo img {
