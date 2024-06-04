@@ -323,10 +323,10 @@ body {
     top: 301px;
 }
 
-.support-box p,
-.dynamic-box p,
-.seamless-box p,
-.personalized-box p {
+.support-box .support-title,
+.dynamic-box .dynamic-title,
+.seamless-box .seamless-title,
+.personalized-box .personalized-title {
     font-family: 'League Spartan', sans-serif;
     line-height: auto;
     letter-spacing: 0%;
@@ -343,7 +343,7 @@ body {
     color: #FBDC18;
 }
 
-.support-description,
+.white-color,
 .dynamic-description,
 .seamless-description,
 .personalized-description {
@@ -355,7 +355,7 @@ body {
     margin-top: 10px;
 }
 
-.support-description,
+.white-description,
 .dynamic-description,
 .seamless-description,
 .personalized-description {
