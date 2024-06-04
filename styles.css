@@ -258,3 +258,69 @@ body {
         width: 100%;
     }
 }
+.parent {
+    position: relative;
+    left: 30px;
+    top: 750px;
+    width: 942px;
+    height: 500px;
+    transform: rotate(0deg);
+    background-color: #040C1E;
+}
+
+.colleagues-image {
+    position: absolute;
+    left: 515px; /* Adjust as needed */
+    top: 50px; /* Adjust as needed */
+    width: 438px;
+    height: 233px;
+}
+
+.why-choose {
+    position: absolute;
+    left: 100px; /* Adjust as needed */
+    top: -9px; /* Adjust as needed */
+    width: 424px;
+    height: 37px;
+    font-family: 'League Spartan', sans-serif;
+    font-size: 28px;
+    line-height: auto;
+    letter-spacing: 0%;
+    color: #FBDC18;
+}
+
+.support-box {
+    position: absolute;
+    left: 0px; /* Adjust as needed */
+    top: -2px; /* Adjust as needed */
+    width: 241px;
+    height: 168px;
+    border-radius: 0;
+}
+
+.dynamic-box {
+    position: absolute;
+    left: 260px; /* Adjust as needed */
+    top: 3px; /* Adjust as needed */
+    width: 241px;
+    height: 168px;
+    border-radius: 0;
+}
+
+.seamless-box {
+    position: absolute;
+    left: 0px; /* Adjust as needed */
+    top: 201px; /* Adjust as needed */
+    width: 241px;
+    height: 168px;
+    border-radius: 0;
+}
+
+.personalized-box {
+    position: absolute;
+    left: 260px; /* Adjust as needed */
+    top: 201px; /* Adjust as needed */
+    width: 241px;
+    height: 168px;
+    border-radius: 0;
+}
