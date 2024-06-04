@@ -260,8 +260,8 @@ body {
 }
 .parent {
     position: relative;
-    left: 30px;
-    top: 750px;
+    left: 75px;
+    top: 700px;
     width: 942px;
     height: 500px;
     transform: rotate(0deg);
@@ -270,16 +270,16 @@ body {
 
 .colleagues-image {
     position: absolute;
-    left: 515px; /* Adjust as needed */
-    top: 50px; /* Adjust as needed */
+    left: 504px; /* Adjust as needed */
+    top: 130px; /* Adjust as needed */
     width: 438px;
-    height: 233px;
+    height: 269px;
 }
 
 .why-choose {
     position: absolute;
     left: 100px; /* Adjust as needed */
-    top: -9px; /* Adjust as needed */
+    top: 85px; /* Adjust as needed */
     width: 424px;
     height: 37px;
     font-family: 'League Spartan', sans-serif;
@@ -291,8 +291,8 @@ body {
 
 .support-box {
     position: absolute;
-    left: 0px; /* Adjust as needed */
-    top: -2px; /* Adjust as needed */
+    left: 10px; /* Adjust as needed */
+    top: 150px; /* Adjust as needed */
     width: 241px;
     height: 168px;
     border-radius: 0;
@@ -301,7 +301,7 @@ body {
 .dynamic-box {
     position: absolute;
     left: 260px; /* Adjust as needed */
-    top: 3px; /* Adjust as needed */
+    top: 150px; /* Adjust as needed */
     width: 241px;
     height: 168px;
     border-radius: 0;
@@ -309,8 +309,8 @@ body {
 
 .seamless-box {
     position: absolute;
-    left: 0px; /* Adjust as needed */
-    top: 201px; /* Adjust as needed */
+    left: 10px; /* Adjust as needed */
+    top: 301px; /* Adjust as needed */
     width: 241px;
     height: 168px;
     border-radius: 0;
@@ -319,7 +319,7 @@ body {
 .personalized-box {
     position: absolute;
     left: 260px; /* Adjust as needed */
-    top: 201px; /* Adjust as needed */
+    top: 301px; /* Adjust as needed */
     width: 241px;
     height: 168px;
     border-radius: 0;
