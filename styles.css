@@ -258,16 +258,16 @@ body {
 
 .parent {
     position: relative;
-    left: 75px;
+    left: -50px;
     top: 700px;
-    width: 942px;
+    width: 1342px;
     height: 500px;
     background-color: #040C1E;
 }
 
 .colleagues-image {
     position: absolute;
-    left: 504px;
+    left: 630px;
     top: 130px;
     width: 438px;
     height: 269px;
@@ -275,12 +275,12 @@ body {
 
 .why-choose {
     position: absolute;
-    left: 100px;
-    top: 85px;
+    left: 170px;
+    top: 70px;
     width: auto;
     height: auto;
     font-family: 'League Spartan', sans-serif;
-    font-size: 28px;
+    font-size: 40px;
     line-height: auto;
     letter-spacing: 0%;
     color: #FBDC18;
@@ -304,22 +304,22 @@ body {
 }
 
 .support-box {
-    left: 10px;
+    left: 170px;
     top: 150px;
 }
 
 .dynamic-box {
-    left: 260px;
+    left: 390px;
     top: 150px;
 }
 
 .seamless-box {
-    left: 10px;
+    left: 170px;
     top: 280px;
 }
 
 .personalized-box {
-    left: 260px;
+    left: 390px;
     top: 280px;
 }
 
