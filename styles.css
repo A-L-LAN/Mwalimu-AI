@@ -298,6 +298,7 @@ body {
 .dynamic-box,
 .seamless-box,
 .personalized-box {
+    -ms-scroll-limit-y-max: 0;
     position: absolute;
     width: 211px;
     height: 138px;
@@ -356,4 +357,185 @@ body {
     overflow: visible;
 }
 
+/* Parent container styling */
+.section 3 {
+    position: relative;
+    left: -50px;
+    top: 1500px;
+    width: 1342px;
+    height: 2300px;
+    background-color: #040C1E;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+/* First child */
+.gradings-paragraph {
+    position: relative;
+    top: 975px;
+    width: 100%;
+    text-align: left;
+    color: #F1D315;
+    font-family: 'League Spartan', sans-serif;
+}
+
+/* OUR BEST FEATURES */
+.best-features {
+    position: absolute;
+    left: 195px;
+    top: -100px;
+    width: 729px;
+    height: 94px;
+    font-family: 'League Spartan', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: auto;
+    letter-spacing: 0%;
+    text-align: center;
+    color: #F1D315;
+}
+
+/* Unleash your full academic potential with our features */
+.academic-potential {
+    position: absolute;
+    left: 215px;
+    top: -80px;
+    width: 729px;
+    height: 94px;
+    font-family: 'League Spartan', sans-serif;
+    font-weight: 500;
+    font-size: 38px;
+    line-height: auto;
+    letter-spacing: 0%;
+    text-align: center;
+    color: #081424;
+}
+
+/* Buttons */
+.chatt, .quiz, .feedback {
+    position: absolute;
+    top: 1000;
+    width: 207px;
+    height: 37px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'League Spartan', sans-serif;
+    font-size: 16px;
+    line-height: auto;
+    letter-spacing: 0%;
+}
+
+.chatt {
+    left: 218px;
+    top: 82px;
+    background-color: #F1D315;
+}
+
+.quiz {
+    left: 491px;
+    top: 82px;
+    background-color: #F1D315;
+}
+
+.feedback {
+    left: 734px;
+    top: 82px;
+    background-color: #F1D315;
+}
+
+/* Button texts */
+.chatt span, .quiz span, .feedback span {
+    color: #081424;
+}
+
+.quiz span, .feedback span {
+    color: #000000;
+}
+
+.chatt span {
+    color: #081424;
+}
+
+/* Text inside buttons */
+.chatt-text {
+    color: #081424;
+}
+
+.quiz-text {
+    color: #000000;
+}
+
+.feedback-text {
+    color: #000000;
+}
+
+/* Second child - Image */
+.laptop img {
+    position: absolute;
+    left: 194px;
+    top: 1650px;
+    width: 504px;
+    height: 316px;
+}
+
+.chevron-left img {
+    position: absolute;
+    left: 154px;
+    top: 1750px;
+    width: 20px;
+    height: 20px; 
+}
+
+/* Third child */
+.wonderful-paragraphs {
+    position: relative;
+    top: 626px;
+    width: 100%;
+    text-align: left;
+    color: #F1D315;
+    font-family: 'League Spartan', sans-serif;
+}
+
+/* MwalimuAi Chatbot */
+.chatbot-title {
+    position: absolute;
+    left: 600px;
+    top: 540px;
+    width: 333px;
+    height: 37px;
+    font-family: 'League Spartan', sans-serif;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: auto;
+    letter-spacing: 0%;
+    text-align: center;
+    color: #F1D315;
+}
+
+/* Chatbot description */
+.chatbot-words {
+    position: absolute;
+    left: 633px;
+    top: 600px;
+    width: 405px;
+    height: 160px;
+    font-family: 'League Spartan', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 32px;
+    letter-spacing: 0%;
+    text-align: left;
+    color: #000000;
+}
+.chevron-right img {
+    position: absolute;
+    left: 1054px;
+    top: 620px;
+    width: 20px;
+    height: 20px; 
+}
 
