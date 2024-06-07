@@ -538,4 +538,32 @@ body {
     width: 20px;
     height: 20px; 
 }
+.paragraph-view {
+    position: absolute;
+    left: 210px;
+    top: 2076px;
+    width: 82px;
+    height: 16px;
+    transform: rotate(0deg);
+    font-family: 'League Spartan', sans-serif;
+    font-weight: 600; /* SemiBold */
+    font-size: 20px;
+    line-height: normal; /* Auto */
+    letter-spacing: 0%;
+    margin-bottom: 0px; /* Paragraph spacing */
+    color: #081424;
+    white-space: nowrap; /* Prevent text truncation */
+    text-align: left;
+    vertical-align: top;
+}
+
+.group-12 {
+    position: absolute;
+    left: 205px;
+    top: 2128px;
+    width: 900px;
+    height: 527px;
+    transform: rotate(0deg);
+    border-radius: 0; /* Mixed corner radius */
+}
 
