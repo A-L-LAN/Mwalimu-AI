@@ -566,4 +566,87 @@ body {
     transform: rotate(0deg);
     border-radius: 0; /* Mixed corner radius */
 }
+.testimonials-top {
+    margin-left: 88px;
+    margin-top: 3196px;
+    width: 105px;
+    height: auto;
+}
+
+.testimonials {
+    font-size: 16px;
+    font-weight: 600;
+    color: #0F1F1F;
+}
+
+.marketing-command {
+    margin-top: 38px;
+}
+
+.marketing-command-words {
+    font-size: 32px;
+    font-weight: 500;
+    color: #081424;
+    width: 447px;
+    height: 123px;
+}
+
+.vision-statement {
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 30px;
+    color: #081424;
+    width: 434px;
+    height: auto;
+    margin-top: 20px;
+}
+
+button {
+    margin-top: 30px;
+    border: none;
+    border-radius: 10px;
+    width: 126px;
+    height: 53px;
+    cursor: pointer;
+}
+
+.to-left {
+    background-color: #FFFFFF;
+    margin-right: 20px;
+}
+
+.to-right {
+    background-color: #081424;
+}
+
+.cards {
+    display: flex;
+    justify-content: start;
+    margin-top: 30px;
+}
+
+.card {
+    padding: 20px;
+    margin-right: 20px;
+    width: 370px;
+    border-radius: 10px;
+    color: #FFFFFF;
+}
+
+.card img {
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.card-one {
+    background-color: #2CFBD3;
+}
+
+.card-two {
+    background-color: #040C1E;
+}
+
+.card-three {
+    background-color: #F1D315;
+}
 
