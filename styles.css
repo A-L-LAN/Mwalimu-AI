@@ -633,19 +633,21 @@ body {
     display: flex;
     /* justify-content: start; */
     margin-top: 110px;
+    margin-left: -30px;
+
 }
 
 .card {
-    padding: 20px;
-    margin-right: 20px;
+    padding: 10px;
+    margin-right: 10px;
     width: 200px;
-    border-radius: 10px;
+    height: 390px;
     color: #FFFFFF;
 }
 
 .card img {
     border-radius: 50%;
-    margin-bottom: 20px;
+    margin-bottom: -80px;
 }
 
 .card-one {
@@ -653,6 +655,7 @@ body {
 }
 
 .card-two {
+    margin-top: 70px;
     background-color: #040C1E;
 }
 
@@ -660,3 +663,32 @@ body {
     background-color: #F1D315;
 }
 
+.profile {
+    margin-left: 150px;
+}
+
+.company-profile-flex{
+    margin-top: 190px;
+     display: flex;
+}
+
+.company-profile{
+    color: #081424;
+    font-family: 'League Spartan';
+}
+
+.company-profile-card-two{
+    color: #FFFFFF;
+    font-family: 'League Spartan';
+}
+.company-profile-bold {
+    color: #081424;
+    font-weight: bold;
+    font-family: 'League Spartan';
+}
+
+.company-profile-bold-card-two {
+    color: #FFFFFF;
+    font-weight: bold;
+    font-family: 'League Spartan';
+}
