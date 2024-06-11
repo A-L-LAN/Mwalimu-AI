@@ -567,8 +567,9 @@ body {
     border-radius: 0; /* Mixed corner radius */
 }
 .testimonials-top {
-    margin-left: 88px;
-    margin-top: 3196px;
+    display: flex;
+    margin-left: 128px;
+    margin-top: 2230px;
     width: 105px;
     height: auto;
 }
@@ -600,28 +601,36 @@ body {
     height: auto;
     margin-top: 20px;
 }
+.xoxoxo{
+    display: flex;
+    gap: 20px;
+    width: 207px;
+    height: 37px;
+    border-radius: 10px;
 
-button {
-    margin-top: 30px;
+}
+.to-left {
     border: none;
     border-radius: 10px;
-    width: 126px;
+    width: 226px;
     height: 53px;
     cursor: pointer;
-}
-
-.to-left {
     background-color: #FFFFFF;
-    margin-right: 20px;
 }
 
 .to-right {
+    border: none;
+    border-radius: 10px;
+    width: 226px;
+    height: 53px;
+    cursor: pointer;
     background-color: #081424;
+    /* margin-left: 30px; */
 }
 
 .cards {
     display: flex;
-    justify-content: start;
+    /* justify-content: start; */
     margin-top: 30px;
 }
 
@@ -639,10 +648,13 @@ button {
 }
 
 .card-one {
+    top: 2000px;
+    left: 600px; 
     background-color: #2CFBD3;
 }
 
 .card-two {
+    left : 800px;
     background-color: #040C1E;
 }
 
