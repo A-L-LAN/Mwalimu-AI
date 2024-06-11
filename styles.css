@@ -579,6 +579,7 @@ body {
     font-size: 16px;
     font-weight: 600;
     color: #F1D315;
+    font-family: 'League Spartan';
 }
 
 .marketing-command {
@@ -586,11 +587,13 @@ body {
 }
 
 .marketing-command-words {
+    margin-top: 18px;
     font-size: 34px;
     font-weight: 500;
     color: #081424;
     width: 447px;
     height: 123px;
+    font-family: "League Spartan";
 }
 
 .vision-statement {
@@ -600,7 +603,8 @@ body {
     color: #081424;
     width: 434px;
     height: auto;
-    margin-top: 20px;
+    margin-top: -50px;
+    font-family: "League Spartan";
 }
 .xoxoxo{
     display: flex;
@@ -632,7 +636,7 @@ body {
 .cards {
     display: flex;
     /* justify-content: start; */
-    margin-top: 110px;
+    margin-top: 90px;
     margin-left: -30px;
 
 }
@@ -641,7 +645,7 @@ body {
     padding: 10px;
     margin-right: 10px;
     width: 200px;
-    height: 390px;
+    height: 340px;
     color: #FFFFFF;
 }
 
@@ -676,14 +680,14 @@ body {
 .company-profile{
     color: #081424;
     font-family: 'League Spartan';
-    margin-top: 60px;
+    margin-top: 30px;
     font-size: 22px;
 }
 
 .company-profile-card-two{
     color: #FFFFFF;
     font-family: 'League Spartan';
-    margin-top: 60px;
+    margin-top: 30px;
     font-size: 22px;
 }
 .company-profile-bold {
@@ -698,4 +702,106 @@ body {
     color: #FFFFFF;
     font-weight: bold;
     font-family: 'League Spartan';
+}
+.rectangle-blue {
+    display: flex;
+    position: absolute;
+    left: 190px;
+    top: 3278px;
+    width: 900px;
+    height: 600px;
+    background-color: #040C1E;
+}
+.contact-info, .contact-us-info {
+    position: absolute;
+    color: #FBDC18;
+}
+.contact-info {
+    left: 50px;
+    top: 60px;
+}
+.contact-us-info {
+    left: 657px;
+    top: 60px;
+    color: #FFFFFF;
+}
+.contact-info p, .contact-us-info p {
+    margin: 0;
+    padding: 0;
+}
+.contact-info .title {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 30px;
+}
+.contact-us-info .declaration {
+    font-weight: 500;
+    font-size: 30px;
+    margin-left: -170px;
+    margin-top: 36px;
+}
+.contact-us-info .details {
+    margin-top: 30px;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 30px;
+    margin-left: -170px;
+}
+.input-field {
+    background-color: #081424;
+    border: 1px solid #FFFFFF;
+    border-radius: 5px;
+    color: #FFFFFF;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 30px;
+    padding: 5px;
+    margin-top: 20px;
+    width: 100px;
+}
+.input-field-long{
+    background-color: #081424;
+    border: 1px solid #FFFFFF;
+    border-radius: 5px;
+    color: #FFFFFF;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 30px;
+    padding: 5px;
+    margin-top: 20px;
+    width: 400px;
+}
+.input-group {
+    display: flex;
+    flex-wrap: wrap;
+}
+.input-group .input-field {
+    flex: 1;
+    margin-right: 20px;
+}
+.input-group .input-field:last-child {
+    margin-right: 0;
+}
+.submit-btn {
+    background-color: #FFFFFF;
+    color: #040C1E;
+    border-radius: 5px;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 30px;
+    padding: 10px;
+    text-align: center;
+    cursor: pointer;
+    margin-top: 60px;
+}
+.contact-details {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.contact-details img {
+    margin-top: 32px;
+    margin-left: -170px;
+    margin-right: 180px;
 }
