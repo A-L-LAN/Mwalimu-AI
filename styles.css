@@ -664,11 +664,13 @@ body {
 }
 
 .profile {
-    margin-left: 150px;
+    height: 50px;
+    width: 50px;
+    margin-left: 20px;
 }
 
 .company-profile-flex{
-    margin-top: 190px;
+    margin-top: 180px;
      display: flex;
 }
 
