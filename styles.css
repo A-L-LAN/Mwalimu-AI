@@ -670,26 +670,31 @@ body {
 }
 
 .company-profile-flex{
-    margin-top: 180px;
      display: flex;
 }
 
 .company-profile{
     color: #081424;
     font-family: 'League Spartan';
+    margin-top: 60px;
+    font-size: 22px;
 }
 
 .company-profile-card-two{
     color: #FFFFFF;
     font-family: 'League Spartan';
+    margin-top: 60px;
+    font-size: 22px;
 }
 .company-profile-bold {
+    font-size: 24;
     color: #081424;
     font-weight: bold;
     font-family: 'League Spartan';
 }
 
 .company-profile-bold-card-two {
+    font-size: 24;
     color: #FFFFFF;
     font-weight: bold;
     font-family: 'League Spartan';
