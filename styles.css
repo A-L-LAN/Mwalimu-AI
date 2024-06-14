@@ -65,7 +65,7 @@ body {
 }
 
 .contact-sales {
-    left: 943px;
+    left: 1143px;
     top: 51px;
     color: #040C1E;
 }
@@ -86,13 +86,13 @@ body {
     }
     
     .register {
-    left: 1084px;
+    left: 1284px;
     top: 42px;
     }
     
     .group-13 {
     position: absolute;
-    left: 630px;
+    left:1000px;
     top: 123px;
     width: 648px;
     height: 611px;
@@ -214,7 +214,7 @@ body {
     position: absolute;
     width: 24px;
     height: 24px;
-    left: 1050px;
+    left: 1410px;
     top: 570px;
     background-color: #FFFFFF;
     border-radius: 0;
@@ -224,7 +224,7 @@ body {
     position: absolute;
     width: 24px;
     height: 24px;
-    left: 1050px;
+    left: 1410px;
     top: 510px;
     background-color: #FFFFFF;
     border-radius: 0;
@@ -235,7 +235,7 @@ body {
     position: absolute;
     width: 171px;
     height: 0;
-    left: 970px;
+    left: 1340px;
     top: 400px;
     border: 1px solid #FBDC18;
     transform: rotate(90deg);
@@ -260,7 +260,7 @@ body {
     position: relative;
     left: -50px;
     top: 700px;
-    width: 1342px;
+    max-width: 1842px;
     height: 500px;
     background-color: #040C1E;
 }
@@ -568,7 +568,7 @@ body {
 }
 .testimonials-top {
     display: flex;
-    margin-left: 130px;
+    margin-left: 50px;
     margin-top: 2230px;
     width: 105px;
     height: auto;
@@ -706,7 +706,7 @@ body {
 .rectangle-blue {
     display: flex;
     position: absolute;
-    left: 190px;
+    left: 490px;
     top: 3278px;
     width: 900px;
     height: 600px;
