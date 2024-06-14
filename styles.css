@@ -11,7 +11,7 @@ body {
     height: 4200px;
     background-color: #FFFFFF;
     padding-right: 0%;
-    padding-left: 5%;
+    padding-left: 35%;
 }
 
 .shadow-box {
@@ -20,7 +20,7 @@ body {
 
 .rectangle-8 {
     position: absolute;
-    width: 1280px;
+    width: 1980px;
     height: 102px;
     top: 0;
     left: 0;
@@ -32,7 +32,7 @@ body {
     position: absolute;
     width: 56px;
     height: 74px;
-    left: 83px;
+    margin-left: 525px;
     top: 23px;
 }
 
@@ -47,19 +47,19 @@ body {
 }
 
 .product {
-    left: 325px;
+    left: 675px;
     top: 51px;
     color: #1E1E1E;
 }
 
 .tools {
-    left: 435px;
+    left: 750px;
     top: 51px;
     color: #1E1E1E;
 }
 
 .pricing {
-    left: 522px;
+    left: 825px;
     top: 51px;
     color: #1E1E1E;
 }
@@ -476,7 +476,7 @@ body {
 /* Second child - Image */
 .laptop img {
     position: absolute;
-    left: 194px;
+    left: 554px;
     top: 1650px;
     width: 504px;
     height: 316px;
@@ -484,7 +484,7 @@ body {
 
 .chevron-left img {
     position: absolute;
-    left: 154px;
+    left: 524px;
     top: 1750px;
     width: 20px;
     height: 20px; 
@@ -540,7 +540,7 @@ body {
 }
 .paragraph-view {
     position: absolute;
-    left: 210px;
+    left:510px;
     top: 2076px;
     width: 82px;
     height: 16px;
