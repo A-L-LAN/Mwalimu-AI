@@ -258,16 +258,16 @@ body {
 
 .parent {
     position: relative;
-    left: -50px;
+    left: -441px;
     top: 700px;
-    max-width: 1842px;
+    width: 1960px;
     height: 500px;
     background-color: #040C1E;
 }
 
 .colleagues-image {
     position: absolute;
-    left: 630px;
+    left: 980px;
     top: 130px;
     width: 438px;
     height: 269px;
@@ -275,7 +275,7 @@ body {
 
 .why-choose {
     position: absolute;
-    left: 170px;
+    left: 520px;
     top: 70px;
     width: auto;
     height: auto;
@@ -305,22 +305,22 @@ body {
 }
 
 .support-box {
-    left: 170px;
+    left: 520px;
     top: 150px;
 }
 
 .dynamic-box {
-    left: 390px;
+    left: 740px;
     top: 150px;
 }
 
 .seamless-box {
-    left: 170px;
+    left: 520px;
     top: 280px;
 }
 
 .personalized-box {
-    left: 390px;
+    left: 740px;
     top: 280px;
 }
 
